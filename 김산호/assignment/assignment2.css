@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  width: 350px; 
+  height: 100px; 
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container p {
+  color: blue;
+}
+
+.container span {
+  color: black;
+}
