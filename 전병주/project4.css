@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td[colspan] {
+  padding-left: 40px;
+  text-align: left;
+}
+
+table td[rowspan] {
+  padding-top: 30px;
+  vertical-align: top;
+}
+
+td {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
+.row {
+  background-color: bisque;
+}
+
+.col {
+  background-color: aquamarine;
+}
+
+#box1 {
+  z-index: -1;
+  left: 10px;
+  top: 20px;
+}
+
+#box2 {
+  z-index: 1;
+  left: 80px;
+  top: 40px;
+}

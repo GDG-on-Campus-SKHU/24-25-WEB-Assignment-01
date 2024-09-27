@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
+.part-5 {
+  background-color: yellow;
+}
+
+span {
+  color: red;
+}
+
+div {
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px gray;
+  cursor: pointer;
+}
+
+.part-1:hover {
+  background-color: red;
+}
+
+.part-2:hover {
+  background-color: blue;
+}
+
+.part-3:hover {
+  background-color: green;
+}
+
+.part-4:hover {
+  background-color: yellow;
+}
+
+.part-5:hover {
+  background-color: orange;
+}
+
+.part-6:hover {
+  background-color: blueviolet;
+}
+
+.part-7:hover {
+  background-color: aqua;
+}
+
+.part-8:hover {
+  background-color: darkblue;
+}
+
+.part-9:hover {
+  background-color: coral;
+}
