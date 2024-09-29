@@ -10,11 +10,16 @@ hr {
 .login {
   text-align: center;
   justify-content: center;
+  margin: 30px auto;
   width: 25%;
   height: 35%;
   border: 1px solid black;
+  padding-bottom: 10px;
 }
 
+button {
+  border: none;
+}
 button img {
   width: 15px;
   height: 15px;
@@ -27,13 +32,22 @@ button img {
 .inf {
   width: 140px;
   height: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .gl {
   color: rgb(135, 135, 135);
+  font-size: 6px;
 }
 
 .lb {
   background-color: #00c471;
   color: white;
+  border: none;
+  width: 170px;
+}
+
+.tt {
+  font-size: 8px;
 }

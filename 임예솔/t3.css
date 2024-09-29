@@ -9,6 +9,9 @@ div {
   text-align: left;
   font-weight: 600;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
 }
 
 table {
@@ -18,10 +21,14 @@ table {
   height: 100px;
   box-shadow: 3px 3px 5px black;
   position: absolute;
-  margin-left: 130px;
-  margin-top: 20px;
   z-index: 1;
   background-color: white;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+
+  margin-left: 115px;
+  margin-top: 2px;
 }
 
 td {
