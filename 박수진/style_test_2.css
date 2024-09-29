@@ -1,18 +1,15 @@
 @charset "utf-8";
 *{
     text-align: center;
-}
-#info{
-    text-align: right;
-    font-weight: bold;
-    font-size: small;
-    font-weight: bold;
-}
-a{
-    display: inline-block;
     color: black;
     text-decoration: none;
+}
+.info{
+    display: inline-block;
+    font-weight: bold;
+    font-size: small;
     margin: 6px;
+    padding-left: 85%;
 }
 .logo{
     width: 60%;
@@ -42,15 +39,35 @@ input[class^=tex]{
     margin-bottom: 12px;
     border-radius: 6px;
 }
+div{
+    display: inline-block;
+}
 .img-kakao{
-    width: 40px;
-    margin: auto;
-    margin-right: 10px;
-    box-shadow: 2px 2px 2px grey;
+    width: 30px;
+    margin-top: 6px;
 }
 .img-google{
+    width: 30px;
+    margin-top: 6px;
+}
+.box-kakao{
+    border: 1px solid #FEE500;
+    border-radius: 7px;
     width: 40px;
-    margin: auto;
+    height: 40px;
+    background-color: #FEE500;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px grey;
+}
+.box-google{
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 40px;
+    height: 43px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 2px 2px 2px grey;
 }
 .sign-in{
