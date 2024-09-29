@@ -11,9 +11,9 @@ hr {
   text-align: center;
   justify-content: center;
   margin: 30px auto;
-  width: 25%;
-  height: 35%;
-  border: 1px solid black;
+  width: 240px;
+  height: 280px;
+  border: 1px solid rgb(168, 168, 168);
   padding-bottom: 10px;
 }
 
@@ -27,6 +27,10 @@ button img {
 
 .kakao {
   background-color: #fee500;
+}
+
+.google {
+  background-color: #ffffff;
 }
 
 .inf {
@@ -46,6 +50,8 @@ button img {
   color: white;
   border: none;
   width: 170px;
+  height: 20px;
+  margin-top: 10px;
 }
 
 .tt {
