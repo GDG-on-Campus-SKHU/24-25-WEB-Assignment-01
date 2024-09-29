@@ -1,0 +1,74 @@
+.b {
+  color: blue;
+}
+
+div {
+  width: 300px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: 600;
+  position: absolute;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 3px 5px black;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 20px;
+  z-index: 1;
+  background-color: white;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.coral:hover {
+  background-color: coral;
+  cursor: pointer;
+}
+
+.red:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.orange:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.yellow:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.green:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.aqua:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.blue:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.darkblue:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.blueviolet:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}

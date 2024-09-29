@@ -1,0 +1,39 @@
+hr {
+  color: gainsboro;
+}
+
+.hd {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.login {
+  text-align: center;
+  justify-content: center;
+  width: 25%;
+  height: 35%;
+  border: 1px solid black;
+}
+
+button img {
+  width: 15px;
+  height: 15px;
+}
+
+.kakao {
+  background-color: #fee500;
+}
+
+.inf {
+  width: 140px;
+  height: 30px;
+}
+
+.gl {
+  color: rgb(135, 135, 135);
+}
+
+.lb {
+  background-color: #00c471;
+  color: white;
+}

@@ -1,0 +1,13 @@
+.blue {
+  color: blue;
+}
+
+div {
+  width: 300px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+  font-weight: 600;
+}
