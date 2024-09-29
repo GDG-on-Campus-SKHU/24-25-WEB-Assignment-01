@@ -1,0 +1,72 @@
+hr {
+  color: gainsboro;
+}
+
+.hd {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.login {
+  text-align: center;
+  justify-content: center;
+  margin: 30px auto;
+  width: 240px;
+  height: 280px;
+  border: 1px solid rgb(168, 168, 168);
+  padding-bottom: 10px;
+}
+
+button {
+  border: none;
+  box-shadow: 1px 1px 2px rgb(210, 210, 210);
+  border-radius: 10%;
+}
+button img {
+  width: 15px;
+  height: 15px;
+}
+
+.kakao {
+  background-color: #fee500;
+}
+
+.google {
+  background-color: #ffffff;
+}
+
+.inf {
+  width: 120px;
+  height: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.gl {
+  color: rgb(135, 135, 135);
+  font-size: 6px;
+}
+
+.lb {
+  background-color: #00c471;
+  color: white;
+  border: none;
+  width: 170px;
+  height: 26px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.tt {
+  font-size: 8px;
+}
+
+.lo {
+  height: 20px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  border: 1px solid rgb(222, 222, 222);
+  padding-left: 5px;
+  color: rgb(160, 160, 160);
+}
