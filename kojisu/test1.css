@@ -1,0 +1,34 @@
+table {
+  border: solid 1px black;
+  border-collapse: collapse;
+  text-align: left;
+  height: 600px;
+  width: 100%;
+}
+
+thead > tr {
+  border: solid 1px black;
+}
+
+tfoot > tr {
+  border: solid 1px black;
+}
+
+tbody > tr {
+  border: solid 1px black;
+}
+
+tfoot {
+  border: solid 1px black;
+  height: 50px;
+}
+
+thead {
+  border: solid 1px black;
+  height: 50px;
+}
+
+tbody {
+  border: solid 1px black;
+  height: 500px;
+}

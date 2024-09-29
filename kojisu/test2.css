@@ -1,0 +1,55 @@
+* {
+  text-align: center;
+}
+#box input[type="image"] {
+  padding: 20px;
+  height: 30px;
+  width: 150px;
+}
+
+#box input[type="text"] {
+  text-align: left;
+  height: 40px;
+  width: 300px;
+  margin-top: 8px;
+}
+#box input[type="password"] {
+  text-align: left;
+  height: 40px;
+  width: 300px;
+  margin-top: 8px;
+}
+
+#box input[type="button"] {
+  border: none;
+  background-color: rgb(104, 205, 124);
+  color: white;
+  height: 50px;
+  width: 310px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 15px;
+}
+p {
+  text-align: right;
+  font-size: small;
+  text-decoration: none;
+}
+
+#box {
+  border: solid black 1px;
+  height: 400px;
+  width: 300px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#box > #picture {
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+#box > #find {
+  text-align: center;
+}
