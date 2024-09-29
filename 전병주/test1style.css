@@ -14,7 +14,7 @@ html {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  height: 60px;
 }
 
 .header-1 {
@@ -22,6 +22,8 @@ header {
   border-left: 1px solid black;
   padding: 10px;
   text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 
 .header-2 {
@@ -29,6 +31,8 @@ header {
   border-left: 1px solid black;
   padding: 10px;
   text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 
 .header-3 {
@@ -36,6 +40,8 @@ header {
   border-left: 1px solid black;
   padding: 10px;
   text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 .header-part:first-child {
   border-left: none;
@@ -49,9 +55,10 @@ header {
 
 main {
   flex: 1;
-  border-right: 1px solid black;
   padding: 10px;
   text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 
 aside {
@@ -70,14 +77,19 @@ aside {
   align-items: flex-start;
   padding: 10px;
   text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 
 .aside-part:first-child {
-  border-top: none; /* 첫 번째 aside-part의 상단 테두리 제거 */
+  border-top: none;
 }
 
 footer {
-  border-top: 1px solid black; /* 하단 테두리만 유지 */
+  border-top: 1px solid black;
   padding: 10px;
   text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
+  height: 60px;
 }

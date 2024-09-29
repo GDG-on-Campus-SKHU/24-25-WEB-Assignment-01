@@ -21,14 +21,6 @@ td {
   text-align: center;
 }
 
-.part-5 {
-  background-color: yellow;
-}
-
-span {
-  color: red;
-}
-
 .container {
   border: 1px solid black;
   box-shadow: 10px 10px 5px gray;
@@ -71,25 +63,40 @@ span {
   background-color: coral;
 }
 
-.container {
+.box-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid gray;
 }
 
-.box {
+.box-2 {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  width: 300px;
+  width: 800px;
+  height: 250px;
+  position: relative;
 }
 
 .byeongju {
-  margin-bottom: 15px;
+  padding-top: 50px;
+  margin-bottom: 3px;
   font-size: 18px;
 }
 
-span {
+.box-1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.container {
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  bottom: 100px;
+}
+
+strong {
   color: blue;
 }
