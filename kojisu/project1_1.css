@@ -1,0 +1,25 @@
+table {
+  width: 100px;
+  height: 100px;
+  border-collapse: collapse;
+  border: 1px solid black;
+  box-shadow: 3px 3px 1px grey;
+}
+
+table tr {
+  border: 1px solid black;
+  font-size: 13px;
+}
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#five {
+  background-color: yellow;
+}
+
+#nine {
+  color: red;
+}
