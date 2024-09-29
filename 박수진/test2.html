@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시험2</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        #info{
+            text-align: right;
+            color: black;
+            font-weight: bold;
+            font-size: small;
+        }
+        .logo{
+            width: 60%;
+        }
+        .form{
+            border: 2px solid #bebebe;
+            height: 400px;
+            width: 350px;
+            padding: 40px;
+            margin: auto;
+            border-radius: 2%;
+        }
+        span{
+            font-size: 10px;
+        }
+        .x{
+            text-align: right;
+            margin: 8px;
+        }
+        input[class^=tex]{
+            width: 92%;
+            height: 50px;
+            padding: 0 10px;
+            border: 2px solid #bebebe;
+            margin-bottom: 12px;
+            border-radius: 6px;
+        }
+        .img-kakao{
+            width: 50px;
+            margin: auto;
+            margin-right: 5px;
+        }
+        .img-google{
+            width: 50px;
+            margin: auto;
+        }
+        .sign-in{
+            width: 99%;
+            height: 50px;
+            border: 2px solid #00c471;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            background-color: #00c471;
+            color: white;
+        }
+        .tex-password{
+            width: 20px;
+            background: url(img/show.png) no-repeat 300px center;
+            background-size: 27px;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        <a href="#" style="text-decoration: none;">로그인</a>
+        <a href="#"style="text-decoration: none;">회원가입</a>
+    </div>
+    <hr>
+    <br><br>
+    <div class="form">
+        <form method="post" action="" id="login-form">
+            <h4 class="x">X</h4>
+
+            <img src="img/logo.png" class="logo">
+
+            <label for="email"></label>
+            <input class="tex-email" type="email" placeholder="이메일" style="text-align: left;">
+
+            <label for="password"></label>
+            <input class="tex-password" type="password" placeholder="비밀번호" style="text-align: left;">
+
+           
+            <input type="submit" value="로그인" placeholder="로그인" class="sign-in">
+        
+        <span>아이디(이메일)찾기 /</span>
+        <span>비민번호 찾기 /</span>
+        <span>회원가입</span>
+        <br><br>
+        <span style="color: grey;">간편로그인</span>
+            <br>
+        <img src="img/kakao.png" class="img-kakao">
+        <img src="img/google.png" class="img-google">
+
+    </form>
+    </div>
+</body>
+</html>
