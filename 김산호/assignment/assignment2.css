@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  width: 320px; 
+  height: 110px; 
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container p {
+  color: blue;
+  font-weight: bold;
+  margin: 7px;
+}
+
+.container span {
+  color: black;
+  font-weight: normal;
+}

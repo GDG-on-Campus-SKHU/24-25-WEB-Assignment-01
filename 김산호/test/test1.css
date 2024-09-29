@@ -1,0 +1,50 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  border: 1px solid black; 
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+  border: 1px solid black;
+  border-right: none;
+  border-bottom: none;
+}
+.box1 {
+  border-top: none;
+  grid-column: 1/1;
+  grid-row: 1;
+}
+.box2 {
+  border-top: none;
+  grid-column: 2/7;
+  grid-row: 1;
+}
+.box3 {
+  border-top: none;
+  grid-column: 7/11;
+  grid-row: 1;
+}
+.box4 {
+  grid-column: 1/6;
+  grid-row: 2/10;
+}
+.box5 {
+  grid-column: 6/11;
+  grid-row: 2/6;
+}
+.box6 {
+  grid-column: 6/11;
+  grid-row: 6/10;
+}
+.box7 {
+  grid-column: 1/11;
+  grid-row: 10;
+  border-bottom: none; 
+}
