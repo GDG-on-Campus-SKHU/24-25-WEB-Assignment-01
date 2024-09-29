@@ -23,6 +23,7 @@ body {
 
 .container p {
   color: blue;
+  font-weight: bold;
 }
 
 .container span {
