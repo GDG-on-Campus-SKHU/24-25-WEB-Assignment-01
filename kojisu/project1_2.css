@@ -13,3 +13,7 @@ span {
   color: blue;
   font-size: 13px;
 }
+
+.bold {
+  font-weight: bold;
+}
