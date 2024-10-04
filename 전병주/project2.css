@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.byeongju {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+span {
+  color: blue;
+}
