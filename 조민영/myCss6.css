@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+tr:nth-child(2) {
+  background-color: rgb(216, 238, 235);
+}
+
+td.beige {
+  background-color: beige;
+  vertical-align: top;
+}
+
+td.five {
+  text-align: left;
+}
