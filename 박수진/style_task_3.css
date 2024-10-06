@@ -1,0 +1,62 @@
+@charset "utf-8";
+div.task-two{
+    position: relative;
+    width: 300px;
+    height: 90px;
+    border: 2px solid black;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20em;
+}
+div.task-one{
+    position: absolute;
+    top: 6.5%;
+    left: 50%;
+    margin: auto;
+    margin-top: 20em;
+}
+span{
+    color: blue;
+}
+table{
+    border-collapse: collapse;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+th, td{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+}
+.red:hover{
+    background-color: red;
+}
+.blue:hover{
+    background-color: blue;
+}
+.green:hover{
+    background-color: green;
+}
+.yellow:hover{
+    background-color: yellow;
+}
+.orange:hover{
+    background-color: orange;
+}
+.blueviolet:hover{
+    background-color: blueviolet;
+}
+.aqua:hover{
+    background-color: aqua;
+}
+.darkblue:hover{
+    background-color: darkblue;
+}
+.coral:hover{
+    background-color: coral;
+}
