@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    width:200px;
+    height:200px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+td{
+    border: 2px solid black;
+}
+
+td.n{
+    color:red;
+}
+
+td.yellow{
+    background-color: yellow;
+}
+
