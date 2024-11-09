@@ -1,0 +1,28 @@
+table {
+  border: solid 1px black;
+  box-shadow: 3px 3px 1px gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table tr {
+  border: solid 1px black;
+  font-size: 13px;
+}
+tr,
+td {
+  border: solid 1px black;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+}
+
+#four {
+  background-color: lightgoldenrodyellow;
+  text-align: top;
+}
+
+#five {
+  background-color: darkseagreen;
+  text-align: left;
+}
