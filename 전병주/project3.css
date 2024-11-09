@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+  margin: 7px;
+}
+
+p {
+  margin-bottom: 3px;
+}
+.main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 130px;
+  border: 1px solid black;
+  padding: 10px;
+  z-index: 0;
+}
+
+.table {
+  position: relative;
+  display: table;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  z-index: 1;
+  top: 60px;
+  left: 60px;
+  background-color: white;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.row-1 {
+  display: table-rows;
+}
+
+.row-2 {
+  display: table-rows;
+}
+
+.row-3 {
+  display: table-rows;
+}
+
+.A-1 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  cursor: pointer;
+}
+.A-2 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.A-3 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.B-1 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  cursor: pointer;
+}
+.B-2 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.B-3 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.C-1 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+}
+.C-2 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.C-3 {
+  display: table-cell;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.A-1:hover {
+  background-color: red;
+}
+
+.A-2:hover {
+  background-color: blue;
+}
+
+.A-3:hover {
+  background-color: green;
+}
+
+.B-1:hover {
+  background-color: yellow;
+}
+
+.B-2:hover {
+  background-color: orange;
+}
+
+.B-3:hover {
+  background-color: blueviolet;
+}
+
+.C-1:hover {
+  background-color: aqua;
+}
+
+.C-2:hover {
+  background-color: darkblue;
+}
+
+.C-3:hover {
+  background-color: coral;
+}
